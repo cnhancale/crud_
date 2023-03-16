@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <!--
 * CoreUI - Free Bootstrap Admin Template
@@ -63,6 +65,7 @@
           <div class="col-lg-8">
             <div class="card-group d-block d-md-flex row">
               <div class="card col-md-7 p-4 mb-0">
+                  <form action="home.php">
                 <div class="card-body">
                   <h1>Login</h1>
                   <p class="text-medium-emphasis">Sign In to your account</p>
@@ -80,13 +83,14 @@
                   </div>
                   <div class="row">
                     <div class="col-6">
-                      <button class="btn btn-primary px-4" type="button">Login</button>
+                      <button class="btn btn-primary px-4" type="submit" >Login</button>
                     </div>
                     <div class="col-6 text-end">
                       <button class="btn btn-link px-0" type="button">Forgot password?</button>
                     </div>
                   </div>
                 </div>
+                  </form>
               </div>
               <div class="card col-md-5 text-white bg-primary py-5">
                 <div class="card-body text-center">
@@ -110,3 +114,4 @@
 
   </body>
 </html>
+
